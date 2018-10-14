@@ -49,6 +49,18 @@ bot.on('message', function(user, userID, channelID, message, evt){
                     to: channelID,
                     message: '`!justin` - justin rOAST'
                 });
+		bot.sendMessage({
+                    to: channelID,
+                    message: '`!og` - ORANGE'
+                });
+		bot.sendMessage({
+                    to: channelID,
+                    message: '`!fortnite` - hamdi dissing fortnite'
+                });
+		bot.sendMessage({
+                    to: channelID,
+                    message: '`!hue` - hue rOAST'
+                });
             break;
             //Justin
 	    case 'justin':

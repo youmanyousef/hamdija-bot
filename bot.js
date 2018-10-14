@@ -33,11 +33,10 @@ bot.on('message', function(user, userID, channelID, message, evt){
         switch(cmd){
             //help
             case 'h':
-                var embed = new Discord.RichEmbed()
-			.addField("Hamdija Bot Help?", "*!hieu*", true)
-			.setColor(0x00FFF)
-			.setFooter("gotem")
-		message.channel.sendEmbed(embed);
+                message.channel.send({embed: {
+ 			 color: 3447003,
+ 			 description: "A very simple Embed!"
+		}});
             break;
             //Justin
 	    case 'justin':

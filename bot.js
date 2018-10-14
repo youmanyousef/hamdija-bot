@@ -35,19 +35,11 @@ bot.on('message', function(user, userID, channelID, message, evt){
             case 'h':
                 bot.sendMessage({
                     to: channelID,
-                    message: '`!c` - Counter Jays Win'
+                    message: '`!c` - Counter Jays Win // `!t` - Jays Win'
                 });
 		bot.sendMessage({
                     to: channelID,
-                    message: '`!t` - Jays Win'
-                });
-		bot.sendMessage({
-                    to: channelID,
-                    message: '`!hieu` - hieu rOAST'
-                });
-		bot.sendMessage({
-                    to: channelID,
-                    message: '`!justin` - justin rOAST'
+                    message: '`!hieu` - hieu rOAST // `!justin` - justin rOAST // `!hue` - hue rOAST'
                 });
 		bot.sendMessage({
                     to: channelID,
@@ -56,10 +48,6 @@ bot.on('message', function(user, userID, channelID, message, evt){
 		bot.sendMessage({
                     to: channelID,
                     message: '`!fortnite` - hamdi dissing fortnite'
-                });
-		bot.sendMessage({
-                    to: channelID,
-                    message: '`!hue` - hue rOAST'
                 });
             break;
             //Justin

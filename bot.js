@@ -37,17 +37,29 @@ bot.on('message', function(user, userID, channelID, message, evt){
                     to: channelID,
                     message: '`!c` - Counter Jays Win'
                 });
-				bot.sendMessage({
+		bot.sendMessage({
                     to: channelID,
                     message: '`!t` - Jays Win'
                 });
-				bot.sendMessage({
+		bot.sendMessage({
                     to: channelID,
                     message: '`!hieu` - hieu rOAST'
                 });
-				bot.sendMessage({
+		bot.sendMessage({
                     to: channelID,
                     message: '`!justin` - justin rOAST'
+                });
+		bot.sendMessage({
+                    to: channelID,
+                    message: '`!og` - ORANGE'
+                });
+		bot.sendMessage({
+                    to: channelID,
+                    message: '`!fortnite` - hamdi dissing fortnite'
+                });
+		bot.sendMessage({
+                    to: channelID,
+                    message: '`!hue` - hue rOAST'
                 });
             break;
             //Justin

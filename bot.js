@@ -3,6 +3,7 @@ var logger = require('winston');
 var auth = require('./auth.json');
 var jArray = ['1','2','3']
 // Configure logger settings
+client.login(process.env.BOT_TOKEN);
 logger.remove(logger.transports.Console);
 logger.add(new logger.transports.Console, {
     colorize: true

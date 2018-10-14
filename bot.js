@@ -31,7 +31,7 @@ bot.on('message', function(user, userID, channelID, message, evt){
 
         args = args.splice(1);
         switch(cmd){
-            //!ping
+            //help
             case 'h':
                 bot.sendMessage({
                     to: channelID,
@@ -50,7 +50,8 @@ bot.on('message', function(user, userID, channelID, message, evt){
                     message: '`!justin` - justin rOAST'
                 });
             break;
-			case 'justin':
+            //Justin
+	    case 'justin':
 				var randomJ = jArray[Math.floor(Math.random()*jArray.length)];
 				if (randomJ == jArray[0]){
                 bot.sendMessage({
@@ -68,19 +69,72 @@ bot.on('message', function(user, userID, channelID, message, evt){
                     message: 'You do know what I did to Justin, right?'
                 });}
             break;
+            //Counter Jays
             case 'c':
                 bot.sendMessage({
                     to: channelID,
                     message: 'Counter-Jays Win!'
                 });
             break;
+            //ORANGE!
+	    case 'og':
+		var randomJ = jArray[Math.floor(Math.random()*jArray.length)];
+		if (randomJ == jArray[0]){
+                	bot.sendMessage({
+                	    	to: channelID,
+                    		message: 'oraAANGe!'
+               		});}
+		if (randomJ == jArray[1]){
+			bot.sendMessage({
+                	    	to: channelID,
+                    		message: ':large_orange_diamond::large_orange_diamond:!'
+               		});
+		}
+		if (randomJ == jArray[1]){
+			bot.sendMessage({
+                	    	to: channelID,
+                    		message: 'OG! OG!'
+               		});
+		}
+		}
+            break;
+			
+            //Fortnite sayings
+	    case 'fortnite':
+		var randomJ = jArray[Math.floor(Math.random()*jArray.length)];
+		if (randomJ == jArray[0]){
+               		bot.sendMessage({
+                    	to: channelID,
+                    	message: 'Fuck fortnite, I just Play For Fun.'
+                	});
+		}
+		if (randomJ == jArray[1]){
+               		bot.sendMessage({
+                    	to: channelID,
+                    	message: 'Incorrect, Gary. I have 23* solos wins.'
+                	});
+		}
+		if (randomJ == jArray[2]){
+               		bot.sendMessage({
+                    	to: channelID,
+                    	message: 'Only reason i have 1W% is because there noclippers, and hackers.'
+                	});
+		}
+            break;
+            //Jays (t)
             case 't':
                 bot.sendMessage({
                     to: channelID,
                     message: 'Jays Win!'
                 });
             break;
-            // Just add any case commands if you want to..
+	    case 'hue':
+                bot.sendMessage({
+                    to: channelID,
+                    message: 'I buy hue KFC🍗!'
+                });
+            break;
+            // hieu
             case 'hieu':
 				var randomJ = jArray[Math.floor(Math.random()*jArray.length)];
 				if (randomJ == jArray[0])

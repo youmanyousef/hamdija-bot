@@ -33,22 +33,12 @@ bot.on('message', function(user, userID, channelID, message, evt){
         switch(cmd){
             //help
             case 'h':
-                bot.sendMessage({
-                    to: channelID,
-                    message: '>`!c` - Counter Jays Win || `!t` - Jays Win <br> `!hieu` - hieu rOAST || `!justin` - justin rOAST || `!hue` - hue rOAST'
-                });
-		bot.sendMessage({
-                    to: channelID,
-                    message: '`!hieu` - hieu rOAST || `!justin` - justin rOAST || `!hue` - hue rOAST'
-                });
-		bot.sendMessage({
-                    to: channelID,
-                    message: '`!og` - ORANGE'
-                });
-		bot.sendMessage({
-                    to: channelID,
-                    message: '`!fortnite` - hamdi dissing fortnite'
-                });
+                var embed = new Discord.RichEmbed()
+			.add("Hamdija Bot Help?", 
+			     "*!hieu*"
+			     "*!hieu*"
+			     "*!hieu*"
+			     ", true)
             break;
             //Justin
 	    case 'justin':

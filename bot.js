@@ -1,7 +1,7 @@
 var Discord = require('discord.io');
 var logger = require('winston');
 var auth = require('./auth.json');
-
+var jArray = ['1','2','3']
 //Configure logger settings.
 logger.remove(logger.transports.Console);
 logger.add(logger.transports.Console, {
@@ -32,38 +32,77 @@ bot.on('message', function(user, userID, channelID, message, evt){
         args = args.splice(1);
         switch(cmd){
             //!ping
-            case 'ping':
+            case 'h':
                 bot.sendMessage({
                     to: channelID,
-                    message: "Hi, this is the tutorial bot!\nUse the command !tutcommands for all my commands!"
+                    message: '`!c` - Counter Jays Win'
+                });
+				bot.sendMessage({
+                    to: channelID,
+                    message: '`!t` - Jays Win'
+                });
+				bot.sendMessage({
+                    to: channelID,
+                    message: '`!hieu` - hieu rOAST'
+                });
+				bot.sendMessage({
+                    to: channelID,
+                    message: '`!justin` - justin rOAST'
                 });
             break;
-            //!tutcommands
-            case 'tutcommands':
+			case 'justin':
+				var randomJ = jArray[Math.floor(Math.random()*jArray.length)];
+				if (randomJ == jArray[0]){
                 bot.sendMessage({
                     to: channelID,
-                    message: "My commands are:\n!ping\n!tutcommands\n!talk\n!yell\n!calm"
-                });
-            break;
-            //!talk
-            case 'talk':
+                    message: 'Justin got **BODIED** ok?'
+                });}
+				if (randomJ == jArray[1]){
                 bot.sendMessage({
                     to: channelID,
-                    message: "Look at me! I'm talking!"
-                });
-            break;
-            //!yell
-            case 'yell':
+                    message: 'If you dont stfu, ill body you like justin.'
+                });}
+				if (randomJ == jArray[2]){
                 bot.sendMessage({
                     to: channelID,
-                    message: "I'M YELLING OKAY!!"
+                    message: 'You do know what I did to Justin, right?'
+                });}
+            break;
+            case 'c':
+                bot.sendMessage({
+                    to: channelID,
+                    message: 'Counter-Jays Win!'
                 });
             break;
-            //!calm
-            case 'calm':
+            case 't':
                 bot.sendMessage({
-                        to: channelID,
-                        message: "Calm down, everything is going to be okay."
+                    to: channelID,
+                    message: 'Jays Win!'
+                });
+            break;
+            // Just add any case commands if you want to..
+            case 'hieu':
+				var randomJ = jArray[Math.floor(Math.random()*jArray.length)];
+				if (randomJ == jArray[0])
+                bot.sendMessage({
+                    to: channelID,
+                    message: '1-0, bodied that nigga.'
+                });
+				if (randomJ == jArray[1])
+                bot.sendMessage({
+                    to: channelID,
+                    message: 'I made that bitch tap out:boxing_glove:.'
+                });
+				if (randomJ == jArray[2])
+                bot.sendMessage({
+                    to: channelID,
+                    message: 'What a gay ass, he tried to pull down my pants.'
+                });
+            break;
+            case 'frederica':
+                bot.sendMessage({
+                    to: channelID,
+                    message: 'Ima marry her!'
                 });
             break;
         }

@@ -77,50 +77,50 @@ bot.on('message', function(user, userID, channelID, message, evt){
                 });
             break;
             //ORANGE!
-	    case 'og':
-		var randomJ = jArray[Math.floor(Math.random()*jArray.length)];
-		if (randomJ == jArray[0]){
-                	bot.sendMessage({
-                	    	to: channelID,
+	    //case 'og':
+		//var randomJ = jArray[Math.floor(Math.random()*jArray.length)];
+		//if (randomJ == jArray[0]){
+                	//bot.sendMessage({
+                	    //	to: channelID,
                     		message: 'oraAANGe!'
-               		});}
-		if (randomJ == jArray[1]){
-			bot.sendMessage({
-                	    	to: channelID,
-                    		message: ':large_orange_diamond::large_orange_diamond:!'
-               		});
-		}
-		if (randomJ == jArray[1]){
-			bot.sendMessage({
-                	    	to: channelID,
-                    		message: 'OG! OG!'
-               		});
-		}
-		}
-            break;
+               		//});}
+		//if (randomJ == jArray[1]){
+		//	bot.sendMessage({
+               /// 	    	to: channelID,
+                 //   		message: ':large_orange_diamond::large_orange_diamond:!'
+               	//	});
+		//}
+		//if (randomJ == jArray[1]){
+		//	bot.sendMessage({
+              // 	    	to: channelID,
+              //      		message: 'OG! OG!'
+               //	/	});
+		//}
+	//	}
+            ///break;
 			
             //Fortnite sayings
-	    case 'fortnite':
-		var randomJ = jArray[Math.floor(Math.random()*jArray.length)];
-		if (randomJ == jArray[0]){
-               		bot.sendMessage({
-                    	to: channelID,
-                    	message: 'Fuck fortnite, I just Play For Fun.'
-                	});
-		}
-		if (randomJ == jArray[1]){
-               		bot.sendMessage({
-                    	to: channelID,
-                    	message: 'Incorrect, Gary. I have 23* solos wins.'
-                	});
-		}
-		if (randomJ == jArray[2]){
-               		bot.sendMessage({
-                    	to: channelID,
-                    	message: 'Only reason i have 1W% is because there noclippers, and hackers.'
-                	});
-		}
-            break;
+	    //case 'fortnite':
+		//var randomJ = jArray[Math.floor(Math.random()*jArray.length)];
+		//if (randomJ == jArray[0]){
+               	//	bot.sendMessage({
+                //    	to: channelID,
+                //    	message: 'Fuck fortnite, I just Play For Fun.'
+               // 	});
+		//}
+		//if (randomJ == jArray[1]){
+               //		bot.sendMessage({
+               //     	to: channelID,
+              //      	message: 'Incorrect, Gary. I have 23* solos wins.'
+              //  	});
+		//}
+		//if (randomJ == jArray[2]){
+              // 		bot.sendMessage({
+              //      	to: channelID,
+             //       	message: 'Only reason i have 1W% is because there noclippers, and hackers.'
+              //  	});
+		//}
+          // break;
             //Jays (t)
             case 't':
                 bot.sendMessage({
@@ -128,11 +128,11 @@ bot.on('message', function(user, userID, channelID, message, evt){
                     message: 'Jays Win!'
                 });
             break;
-	    case 'hue':
-                bot.sendMessage({
-                    to: channelID,
-                    message: 'I buy hue KFC🍗!'
-                });
+	   // case 'hue':
+           //     bot.sendMessage({
+            //        to: channelID,
+            //        message: 'I buy hue KFC🍗!'
+             //   });
             break;
             // hieu
             case 'hieu':
@@ -153,12 +153,12 @@ bot.on('message', function(user, userID, channelID, message, evt){
                     message: 'What a gay ass, he tried to pull down my pants.'
                 });
             break;
-            case 'frederica':
-                bot.sendMessage({
-                    to: channelID,
-                    message: 'Ima marry her!'
-                });
-            break;
+            //case 'frederica':
+          //      bot.sendMessage({
+          //          to: channelID,
+         // //          message: 'Ima marry her!'
+         //       });
+         //   break;
         }
     }
 });

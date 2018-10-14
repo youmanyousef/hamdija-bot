@@ -35,11 +35,11 @@ bot.on('message', function(user, userID, channelID, message, evt){
             case 'h':
                 bot.sendMessage({
                     to: channelID,
-                    message: '`!c` - Counter Jays Win // `!t` - Jays Win'
+                    message: '`!c` - Counter Jays Win || `!t` - Jays Win'
                 });
 		bot.sendMessage({
                     to: channelID,
-                    message: '`!hieu` - hieu rOAST // `!justin` - justin rOAST // `!hue` - hue rOAST'
+                    message: '`!hieu` - hieu rOAST || `!justin` - justin rOAST || `!hue` - hue rOAST'
                 });
 		bot.sendMessage({
                     to: channelID,

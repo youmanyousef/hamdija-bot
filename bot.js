@@ -82,7 +82,7 @@ bot.on('message', function(user, userID, channelID, message, evt){
 		//if (randomJ == jArray[0]){
                 	//bot.sendMessage({
                 	    //	to: channelID,
-                    		message: 'oraAANGe!'
+                    		//message: 'oraAANGe!'
                		//});}
 		//if (randomJ == jArray[1]){
 		//	bot.sendMessage({

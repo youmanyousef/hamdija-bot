@@ -5,6 +5,6 @@
   "main": "bot.js",
   "author": "youmanyousef",
   "dependencies": {
-    "discord.js": "11.1.0",
+    "discord.js": "^11.1.0",
   }
 }

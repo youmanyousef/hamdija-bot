@@ -7,7 +7,7 @@ logger.remove(logger.transports.Console);
 logger.add(logger.transports.Console, {
     colorize:true
 });
-
+client.login(process.env.BOT_TOKEN);
 logger.level = 'debug';
 
 //Initialize the bot

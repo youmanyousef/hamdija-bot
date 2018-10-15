@@ -81,7 +81,6 @@ bot.on('message', function(user, userID, channelID, message, evt){
                     		message: 'OG! OG!'
                		});
 		}
-		}
             break;
 			
             //Fortnite sayings

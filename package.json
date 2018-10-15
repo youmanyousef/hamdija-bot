@@ -1,16 +1,13 @@
 {
-  "name": "package",
+  "name": "Hamdija",
   "version": "1.0.0",
-  "description": "I'm a text tutorial bot!",
+  "description": "Bosnia 4EVER",
   "main": "bot.js",
+  "author": "youmanyousef",
   "dependencies": {
-    "discord.io": "^2.5.3",
-    "winston": "^2.4.0"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Brian (ShoarmaKarma)",
-  "license": "ISC"
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "discord.js": "^11.4.2",
+    "discord.js-commando": "^0.10.0",
+    "winston": "^2.4.4"
+  }
 }

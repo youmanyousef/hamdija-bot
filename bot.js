@@ -4,9 +4,7 @@ var auth = require('./auth.json');
 var jArray = ['1','2','3']
 //Configure logger settings.
 logger.remove(logger.transports.Console);
-logger.add(logger.transports.Console, {
-    colorize:true
-});
+
 
 logger.level = 'debug';
 

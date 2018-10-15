@@ -33,7 +33,10 @@ bot.on('message', function(user, userID, channelID, message, evt){
         switch(cmd){
             //help
             case 'h':
-			
+		bot.sendMessage({
+                    to: channelID,
+                    message: '**HAMDI BOT HELP** -- `!hieu` - _hieu rOAST_ || `!hue` - _hue rOAST_ || `!justin` - _justin rOAST_ || `!c` - _Counter-Jays Win_ || `!t` - _Jays Win_ || `!og` - _ORANGE!, og_'
+                });}
             break;
             //Justin
 	    case 'justin':
@@ -72,10 +75,10 @@ bot.on('message', function(user, userID, channelID, message, evt){
 		if (randomJ == jArray[1]){
 			bot.sendMessage({
                 	    	to: channelID,
-                    		message: ':large_orange_diamond::large_orange_diamond:!'
+                    		message: ':large_orange_diamond::large_orange_diamond:'
                		});
 		}
-		if (randomJ == jArray[1]){
+		if (randomJ == jArray[2]){
 			bot.sendMessage({
                	    	to: channelID,
                     		message: 'OG! OG!'

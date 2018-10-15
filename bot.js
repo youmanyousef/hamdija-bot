@@ -33,10 +33,7 @@ bot.on('message', function(user, userID, channelID, message, evt){
         switch(cmd){
             //help
             case 'h':
-		bot.sendMessage({
-                    to: channelID,
-                    message: '**HAMDI BOT HELP** -- `!hieu` - hieu rOAST'
-                });}
+			
             break;
             //Justin
 	    case 'justin':
